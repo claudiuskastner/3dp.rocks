@@ -1,8 +1,8 @@
 <style>
-    #threedcanvas {  
-        min-height:300px;  
+    #threedcanvas {
+        min-height:300px;
         overflow: hidden;
-    }  
+    }
     .formthumb {
         display: inline-table;
         width: 140px;
@@ -28,11 +28,11 @@
         <div class="panel-body" >
 
             <div class="well" >
-                <div id="threedcanvas" style="height: {{getWindowHeight()+'px'}}"  >     
-                    <canvas id="CompatibilityCanvas"> </canvas>  
+                <div id="threedcanvas" style="height: {{getWindowHeight()+'px'}}"  >
+                    <canvas id="CompatibilityCanvas"> </canvas>
                 </div>
             </div>
-            <div id="viewButtons" >    
+            <div id="viewButtons" >
                 <button ng-click="lithoapp.triggerRefresh();" class="btn btn-primary pull-left" >Refresh</button>
                 <button ng-click="lithoapp.triggerDownload();" class="btn btn-primary pull-right">Download</button>
             </div>
@@ -51,5 +51,5 @@
                 </div>
             </div>
         </div>
-    </div> 
+    </div>
 </div>
